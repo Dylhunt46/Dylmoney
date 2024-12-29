@@ -65,6 +65,23 @@ article {
     color: #333;
 }
 
+article h3 {
+    background: rgb(43, 211, 43);
+    width: 95%;
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: .5rem;
+}
+
+article a {
+    color: #161616;
+    font-weight: bold;
+}
+
+article a:hover {
+    color: #fff;
+}
+
 footer {
     background-color: #333;
     color: #fff;
@@ -73,6 +90,10 @@ footer {
 
 footer a {
     color: #fff;
+    text-decoration: none;
+}
+
+a {
     text-decoration: none;
 }
 
