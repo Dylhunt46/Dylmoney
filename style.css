@@ -33,6 +33,7 @@ main {
 }
 
 section {
+    margin-bottom: 200px;
     max-width: 600px;
     padding: 1rem;
     border: 1px solid #ccc;
@@ -49,8 +50,8 @@ section {
 }
 
 article {
-    width: 300px;
-    padding: 1rem;
+    width: 250px;
+    height: 100px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #fff;
@@ -73,4 +74,27 @@ footer {
 footer a {
     color: #fff;
     text-decoration: none;
+}
+
+@media screen and (min-width: 700px) {
+    section {
+        width: 600px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (min-width: 1100px) {
+    section {
+        max-width: 1400px;
+        width: 1000px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        place-items: center;
+    }
+
+    article {
+        width: 210px;
+    }
 }
